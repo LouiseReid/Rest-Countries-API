@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Country App</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
+  <script src='MapWrapper.js'></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src='index.js'></script>
+</head>
+<body>
+  <!-- <button id="load-countries">Load Countries</button> -->
+<section id="parent-container">
+
+ <div class="main-body">
+   <section>
+     <img id="country-flag">
+   </section>
+  <section>
+    <h1>Countries</h1>
+    <select id="countries-dropdown">
+      <option disabled selection>countries</option>
+    </select>
+    <div id="country-info">
+      <ul>
+        <li id="country-name"></li>
+        <li id="country-population"></li>
+        <li id="county-capital"></li>
+      </ul>
+    </div>
+
+    <h2>Bordering Countries</h2>
+    <ul id="bordering-countries">
+    </ul>
+  </section>
+  </div>
+
+  <div id="main-map">
+
+  </div>
+</section>
+
+
+</body>
+</html>

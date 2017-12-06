@@ -1,0 +1,48 @@
+body {
+  background-image: url('map-background.jpg');
+  font-family: 'Cherry Swash', cursive;
+  color: #1c1808;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+section {
+  text-align: center;
+  font-size: 23px;
+  background: rgba(255, 255, 255, 0.1)
+}
+
+select {
+  margin-left: 25px;
+}
+
+#parent-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+#country-flag {
+  width: 180px;
+}
+
+
+#main-map {
+  width: 400px;
+  height: 400px;
+  border: solid black 4px;
+  align-self: center;
+  margin-left: 100px;
+}
